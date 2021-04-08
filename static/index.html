@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div id="main">
+
+        <div id="chat">
+            <!-- <p><div class="connect">connect</div></p>
+            <p><div class="disconnect">disconnect</div></p>
+
+            <p class="p_chat">
+                <p class="name-me">나</p>
+                <div class="me">me</div>
+            </p>
+
+            <p class="p_chat">
+                <p class="name-other">상대</p>
+                <div class="other">other</div>
+            </p> -->
+        </div>
+        
+        <p class="input-box">
+            <input type="text" id="test" onkeyup="enterkey()">
+            <button onclick="send()">전송</button>
+        </p>
+    </div>
+</body>
+</html>
